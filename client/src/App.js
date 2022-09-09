@@ -23,16 +23,16 @@ function App() {
           <h3>Join is Chat</h3>
           <input
             type="text"
-            placeholder="Number Room ... "
+            placeholder="User ... "
             onChange={(e) => {
-              setRoom(e.target.value);
+              setUsername(e.target.value);
             }}
           />
           <input
             type="text"
-            placeholder="User ... "
+            placeholder="Number Room ... "
             onChange={(e) => {
-              setUsername(e.target.value);
+              setRoom(e.target.value);
             }}
           />
           <button onClick={joinRoom}>Join Room</button>
